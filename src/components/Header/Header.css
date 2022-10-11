@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(194, 186, 186);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.btn-home button{
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(194, 186, 186);
+    cursor: pointer;
+}
+.menu-item a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    
+}

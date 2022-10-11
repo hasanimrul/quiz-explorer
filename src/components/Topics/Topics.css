@@ -1,0 +1,25 @@
+.topics-container{
+    width: 75%;
+    height: 50%;
+}
+.topics{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(194, 186, 186);
+}
+.topics img{
+    height: 200px;
+    width: 200px;
+}
+.topics button{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+.topics button:hover{
+    background-color: black;
+    color: white;
+}
