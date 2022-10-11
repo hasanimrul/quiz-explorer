@@ -8,8 +8,13 @@ const Home = () => {
     return (
         <div className='home-container'>
             {
-                topics.map(topic => <Topics key={topic.id} topic = {topic}></Topics>)
+                <img className='banner-img' src="http://sitegalleria.com/wp-content/uploads/2019/08/web-development-company-bangalore.jpg" alt="" />
             }
+            <div className='topics-conatiner'>
+                {
+                    topics.map(topic => <Topics key={topic.id} topic = {topic}></Topics>)
+                }
+            </div>
         </div>
     );
 };

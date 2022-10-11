@@ -1,7 +1,12 @@
-.home-container{
+.topics-conatiner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
     
 }
+.banner-img{
+    height:300px ;
+    width: 100%;
+}
+
