@@ -9,3 +9,7 @@
     text-align: left;
 
 }
+.question-div{
+    display: flex;
+    justify-content: space-between;
+}
