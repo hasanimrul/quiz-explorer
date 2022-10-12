@@ -13,7 +13,7 @@ const Topics = ({topic}) => {
         <div className='topics-container'>
                 <div className='topics'>
                     <img src={logo} alt="" />
-                    <h3>Course Name: {name}</h3>
+                    <h3>{name}</h3>
                     <Link to= {`/quiz/${id}`}>
                     <button>Start Quiz <FontAwesomeIcon icon={faArrowAltCircleRight}></FontAwesomeIcon></button>
                     </Link>
