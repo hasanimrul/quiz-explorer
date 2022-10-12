@@ -12,6 +12,8 @@ const QuizeQuestion = ({ questions }) => {
 
  
   const notify = () => toast(correctAnswer);
+
+  
   
   return (
     <div className="quize-question-container">
@@ -26,7 +28,7 @@ const QuizeQuestion = ({ questions }) => {
 
       {
         options.map((option) => (
-        <AnswerOption question={questions} option={option}></AnswerOption>
+        <AnswerOption question={questions} option={option} correctAnswer={correctAnswer}></AnswerOption>
         ))
       }
     </div>

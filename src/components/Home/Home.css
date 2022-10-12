@@ -10,3 +10,21 @@
     width: 100%;
 }
 
+/* Smartphones (portrait) */
+@media only screen and (max-width: 800px) {
+    .topics-conatiner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
+  
+  /* iPads (portrait and landscape)  */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+  }
+  
+  /* Desktops and laptops  */
+  @media only screen and (min-width: 1224px) {
+   
+  }
+

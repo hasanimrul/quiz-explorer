@@ -1,10 +1,19 @@
 .answer-option-container{
     border: 1px solid green;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
     text-align: left;
+    
+}
+.answer-option-container:hover{
+    background-color: rgb(206, 241, 206);
+}
+
+
+.answer-option-container label{
+    cursor: pointer;
     display: flex;
 }

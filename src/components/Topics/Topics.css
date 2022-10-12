@@ -6,7 +6,7 @@
     border: 2px solid rgb(0, 0, 0);
     margin: 20px;
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: rgb(194, 186, 186);
 }
 .topics img{
@@ -15,9 +15,10 @@
 }
 .topics button{
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 20px;
     font-size: large;
     cursor: pointer;
+    border: none;
 }
 .topics button:hover{
     background-color: black;
