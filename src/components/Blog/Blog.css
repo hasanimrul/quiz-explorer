@@ -1,7 +1,7 @@
-.blog-container{
-    margin: 10%;
+.blog-content{
+    margin: 5% 10% 10% 10%;
 }
 
-.blog-container h3, p{
+.blog-content h3, p{
     text-align: left;
 }

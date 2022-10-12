@@ -1,5 +1,4 @@
 .header{
-    /* background-color: rgb(194, 186, 186); */
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -14,6 +13,11 @@
     font-weight: bold;
     background-color: white;
     cursor: pointer;
+    color: black;
+}
+
+.btn-home button:hover{
+    color: blue;
 }
 .menu-item a{
     text-decoration: none;

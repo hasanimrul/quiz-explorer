@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='home-container'>
             {
-                <img className='banner-img' src="https://www.tech-wonders.com/wp-content/uploads/2018/06/educational-technology-impact-learning.jpg" alt="" />
+                <img className='banner-img' src="https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1567070991/1567070990.jpg" alt="" />
             }
             <div className='topics-conatiner'>
                 {
