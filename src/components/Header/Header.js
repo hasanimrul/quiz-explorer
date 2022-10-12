@@ -31,8 +31,6 @@ const Header = () => {
       </Container>
     </Navbar>
 
-            
-        {/* </Navbar> */}
         </>
     );
 };

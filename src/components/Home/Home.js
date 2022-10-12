@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='home-container'>
             {
-                <img className='banner-img' src="http://sitegalleria.com/wp-content/uploads/2019/08/web-development-company-bangalore.jpg" alt="" />
+                <img className='banner-img' src="https://www.tech-wonders.com/wp-content/uploads/2018/06/educational-technology-impact-learning.jpg" alt="" />
             }
             <div className='topics-conatiner'>
                 {
